@@ -1,0 +1,47 @@
+Why Map-reduce program is needed in Pig Programming?
+
+1.Pig is simple to non programers.
+2.There is no need to import any additional libraries and anyone with basic knowledge of SQL and without a Java background can easily understand it.
+3.faster to write in Pig Latin just because of the number of lines.
+4.we can focus on is how much easier it is to read for someone with a little SQL knowledge.
+5.Pig is written in Java and allows for developers to write User Defined functions in Java that leverage Java Libraries.
+6.Pig Latin's ability to include user code at any point in the pipeline is useful for pipeline development.
+7.Pig Latin can be extended using User Defined Functions which the user can write in Java, Python and other programming languages.
+8.saves times in writting code.
+
+
+2.What are advantages of pig over MapReduce?
+
+length of code
+non programmers can also learn pig
+faster
+
+
+3.What is pig engine and what is its importance?
+
+pig engine acts as interpreter between piglatin script and mapreduce jobs, it gives environment to execute pig scripts in to series of mapreduce jobs in parallel manner
+
+4.What are the modes of Pig execution?
+
+there are 2 modes
+
+--> local mode: Command − $ ./pig –x local
+--> mapreduce mode: Command − $ ./pig -x mapreduce or just use pig to enter in to mapreduce mode.
+
+5.What is grunt shell in Pig?
+
+Use Pig's interactive shell called Grunt, to enter pig commands manually.Pig script that can interact with the Grunt shell.The Grunt shell has access to aliases defined within the script.The script has access to aliases defined externally via the Grunt shell.
+
+6.What are the features of Pig Latin language?
+
+Pig is simple
+non programmers can also learn pig
+can execute in both local and mapreduce mode
+saves times in writting code.
+
+7.Is Pig latin commands case sensitive?
+
+The names (aliases) of relations and fields are case sensitive. The names of Pig Latin functions are case sensitive. The names of parameters (see Parameter Substitution) and all other Pig Latin keywords (see Reserved Keywords) are case insensitive.
+
+8.What is a data flow language?
+ common example of a dataflow programming language is a spread sheet program which has columns of data that are affected by other columns of data. ... Although the spread sheet program is the most common example of a dataflow programming language, most of them tend to be graphical languages.
